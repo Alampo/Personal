@@ -1,0 +1,192 @@
+body {
+  background-color: hsl(210, 46%, 95%);
+}
+
+#header {
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: rgb(192, 241, 241);
+  padding-right: 12px;
+  padding-left: 12px;
+  text-align: center;
+  border-style: dotted;
+  border-radius: 10px;
+  border-color: azure;
+}
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2.5rem;
+  color: gold;
+  animation: happy-birthday 5s ease-in 2s infinite alternate;
+}
+
+@keyframes happy-birthday {
+  0% {
+    background-color: darkgreen;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: cyan;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: beige;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: hsl(219, 29%, 14%);
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: hsl(179, 100%, 13%);
+    left: 0px;
+    top: 0px;
+  }
+}
+
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2.5rem;
+  color: blue;
+  animation: ily 5s ease-in 2s infinite alternate;
+}
+
+@keyframes ily {
+  0% {
+    background-color: hsl(0, 0%, 81%);
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: cyan;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: hsl(31, 77%, 52%);
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: hsl(219, 29%, 14%);
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: hsl(179, 100%, 13%);
+    left: 0px;
+    top: 0px;
+  }
+}
+.header-text {
+  font-style: italic;
+  font-size: 16px;
+  color: darkgreen;
+
+  object-position: bottom;
+}
+.header-img {
+  width: 45%;
+  height: auto;
+}
+
+#intro {
+  background-color: hsl(219, 29%, 14%);
+  color: white;
+  margin-bottom: 200px;
+  text-align: center;
+  height: 700px;
+}
+
+.img-intro {
+  width: auto;
+  height: 500px;
+}
+.head-intro {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: oblique;
+}
+.intro-text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  object-position: bottom;
+  margin-top: 100px;
+}
+
+#inside-talk {
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: hsl(217, 19%, 35%);
+  margin-top: 200px;
+  margin-bottom: 200px;
+  border-style: double;
+  border-color: hsl(217, 19%, 35%);
+  border-radius: 15px;
+  align-items: center;
+  padding: 35px 70px 50px;
+  width: 500px;
+}
+
+.img-inside {
+  width: auto;
+  height: 250px;
+  border-radius: 10px;
+}
+.inside-text {
+  color: hsl(0, 0%, 81%);
+  font-size: 13px;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#amin-faiza {
+  margin-right: 30%;
+  background-color: hsl(31, 77%, 52%);
+  margin-top: 200px;
+  margin-bottom: 100px;
+  padding: 35px 70px 50px;
+  width: 700px;
+}
+
+.amin-text {
+  font-size: 15px;
+  font-style: italic;
+  color: hsl(0, 0%, 95%);
+}
+
+.aziaf-amin {
+  width: 300px;
+  height: auto;
+}
+
+.amin {
+  width: 400px;
+  height: auto;
+  margin-left: 50%;
+}
+
+#conclusion {
+  background-color: hsl(179, 100%, 13%);
+  margin-top: 200px;
+  margin-bottom: 100px;
+  padding: 35px 70px 50px;
+  width: 100%;
+}
+.conc-text {
+  color: white;
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
+.img-conc {
+  width: auto;
+  height: 400px;
+  object-position: center;
+}
